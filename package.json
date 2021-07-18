@@ -1,0 +1,14 @@
+{
+    "name": "crawling-shopping",
+    "main": "app.js",
+    "scripts": {
+        "start": "nodemon --exec app.js"
+    },
+    "dependencies": {
+        "axios": "^0.21.1",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "node-taobao-topclient": "^0.1.7",
+        "phantom": "^6.3.0"
+    }
+}
